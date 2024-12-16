@@ -122,20 +122,6 @@ public class Game {
     }
 
 
-   /* private void restart() throws InterruptedException {
-
-        Key k = Field.readInput();
-
-        if(!snake.isAlive() && k != null){
-
-            switch (k.getKind()) {
-                case Enter:
-
-            }
-        }
-    }*/
-
-
     private void checkCollisions() {
 
         Position fieldPosition = new Position(Field.getWidth(), Field.getHeight());
